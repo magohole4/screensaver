@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="bodyreal">
+      
+      <div class="centerOfS" id="fbtdiv">
+        
+        <center>
+          
+        <h1>Please fullscreen me :)</h1>
+        <input type="button" value="FULLSCREEN" id="fbt">
+        
+        </center>
+        
+      </div>
+      
+      <div id="drawing">
+        <canvas id="dcanv"></canvas>
+      </div>
+      <!--<img src="MLogo.png" id="MLOGOIMG">-->
+      
+      <div class="hide" id="rc">
+      </div>
+      
+      <div id="cmdModal" class="modal">
+        <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close-modal">&times;</span>
+          <h2>Image Control</h2>
+        </div>
+        <div class="modal-body">
+          <p>Insert logo code</p>
+          <input id="cmdText" type="text" placeholder="Inesert logo code">
+          <input id="cmdBt" type="button" value="CHANGE IMAGE">
+          <span id="cmdRes" class="modal-result-span"></span>
+          <br>
+          <span>Background particles color: </span><input type="color" value="#00A4FF" id="cmdCl"> <input type="checkbox" id="bkCh" checked>
+          <br>
+          <span>Explosive particles color: </span><input type="color" value="#FFFFFF" id="cmdClF"> <input type="checkbox" id="exCh" checked>
+          <br>
+          <br>
+        </div>
+        <div class="modal-footer">
+          <br>
+        </div>
+      </div>
+
+      </div>
+      
+      
+    </div>
+    <script src="page.js"></script>
+  </body>
+</html>
